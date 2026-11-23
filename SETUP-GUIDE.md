@@ -6,7 +6,8 @@ You do not need to type any commands yourself. Wherever it says "ask your bot", 
 
 ## Before you start
 
-- Copy this kit folder onto your bot's computer (the box), for example into `~/sales-bot-kit`. Your bot can do this if you share the folder with it.
+- Ask your bot to download the kit onto its computer with this command, which unpacks it into `~/sales-bot-kit`:
+  `curl -fsSL https://raw.githubusercontent.com/PaulbCatalyst/sales-messaging-assistant-kit/main/sales-messaging-assistant-kit.tgz | tar xz -C ~`
 - Have your phone unlocked and nearby.
 
 ## Part 1: WhatsApp
